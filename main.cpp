@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// 1 milisecond, should be middle point
+// duty 1 - 5 should be middle point of motors
 int duty1 = 1500000;
 int duty2 = 1500000;
 int duty3 = 1500000;

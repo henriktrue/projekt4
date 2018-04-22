@@ -4,9 +4,9 @@
 //location of 5 device tree overlays
 #define MOTOR1 "/sys/devices/ocp.3/bs_pwm_test_P9_14.15/"
 #define MOTOR2 "/sys/devices/ocp.3/bs_pwm_test_P9_16.16/"
-#define MOTOR3 "/sys/devices/ocp.3/bs_pwm_test_P8_13.18"
-#define MOTOR4 "/sys/devices/ocp.3/bs_pwm_test_P8_19.19"
-#define MOTOR5 "/sys/devices/ocp.3/bs_pwm_test_P9_42.17"
+#define MOTOR3 "/sys/devices/ocp.3/bs_pwm_test_P8_13.18/"
+#define MOTOR4 "/sys/devices/ocp.3/bs_pwm_test_P8_19.19/"
+#define MOTOR5 "/sys/devices/ocp.3/bs_pwm_test_P9_42.17/"
 
 //overload constructor, sets polarity and period for all motors
 motor::motor(int Period)
